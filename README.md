@@ -7,3 +7,5 @@ Este repositório contém o núcleo do projeto: interpretador, estrutura de cód
 
 ---
 
+## 📦 Estrutura do Projeto
+
