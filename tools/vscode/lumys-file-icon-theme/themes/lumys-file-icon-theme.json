@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "lumysFile": {
+      "iconPath": "./../icons/lumys-file.png"
+    }
+  },
+  "fileExtensions": {
+    "mys": "lumysFile"
+  }
+}

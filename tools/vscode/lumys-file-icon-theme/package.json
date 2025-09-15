@@ -1,0 +1,19 @@
+{
+  "name": "lumys-file-icon-theme",
+  "displayName": "Lumys File Icons",
+  "description": "Ícone personalizado para arquivos .mys da linguagem Lumys.",
+  "version": "0.0.1",
+  "publisher": "paulofacm",
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Themes"],
+  "icon": "icons/lumys-file.png",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "lumys-file-icons",
+        "label": "Lumys File Icons",
+        "path": "./themes/lumys-file-icon-theme.json"
+      }
+    ]
+  }
+}
