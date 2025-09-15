@@ -1,0 +1,19 @@
+module tools.init_project
+
+import std.fs
+import std.io
+
+fn main() -> i32 {
+    let base = std.fs.Path::from("meu_app")
+    std.fs.create_dir_all(base.join("src"))
+    std.fs.create_dir_all(base.join("assets/icons"))
+    std.fs.create_dir_all(base.join("assets/themes"))
+    std.fs.create_dir_all(base.join("config"))
+    std.fs.create_dir_all(base.join("tests"))
+
+    std.fs.write_string(base.join("README.md"), "# Meu App Lumysiano\n")
+    std.fs.write_string(base.join("config/app.toml"), 'name = "Meu App"\nversion = "0.1.0"')
+
+    std.io.println("✅ Estrutura criada com sucesso.")
+    0
+}

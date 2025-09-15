@@ -1,0 +1,13 @@
+module compiler.lexer
+
+type Token = {
+    kind: String,
+    lexeme: String,
+    line: u32,
+    col: u32
+}
+
+fn lex(src: String) -> List<Token> {
+    // Simulação: retorna um token fixo
+    [Token { kind: "Ident", lexeme: "main", line: 1, col: 1 }]
+}

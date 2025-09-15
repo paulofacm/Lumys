@@ -1,0 +1,10 @@
+# Binários
+*.o
+*.out
+lvm
+
+# Backups
+*~
+
+# Editor
+.vscode/

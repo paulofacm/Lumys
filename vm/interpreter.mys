@@ -1,0 +1,6 @@
+module vm.interpreter
+
+fn run(code: String) {
+    std.io.println("Executando código Lumys:")
+    std.io.println(code)
+}
